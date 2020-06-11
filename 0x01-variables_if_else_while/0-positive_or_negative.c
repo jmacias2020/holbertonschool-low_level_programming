@@ -20,10 +20,10 @@ if (n > 0)
 
 printf("Is positive\n")
 
-else if (n < 0)
+if (n < 0)
 
 printf("Is negative\n")
 
-else
+if (n == 0)
 
 printf("Is zero\n")
