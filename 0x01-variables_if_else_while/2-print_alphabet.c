@@ -9,9 +9,15 @@
 int main(void)
 {
 
-  
+char c = 'a';
+while (c <= 'z')
+{
 
+_putchar(c);
 
-    }
-  return (0);
+c = c + 1;
+
+}
+_putchar('\n');
+return (0);
 }
