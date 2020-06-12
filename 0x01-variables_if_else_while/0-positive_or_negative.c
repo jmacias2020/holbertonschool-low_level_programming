@@ -3,9 +3,9 @@
 #include <time.h>
 
 /**
- * more headers goes there.
+ * main - assign a random number to the variable 'n'.
  *
- * betty style doc for function main goes there.
+ * Return: 0 indicates sucesfull execution.
  */
 
 int main(void)
