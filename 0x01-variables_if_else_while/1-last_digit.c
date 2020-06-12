@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+/**
+ * main - assign a random number to the variable 'n'.
+ *
+ * Return: 0 indicates sucesfull execution.
+ */
+
+int main(void)
+{
+int n;
+
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+
+if (n > 5)
+{
+printf("%d%s\n", "Last digit of", n, "is greater than 5");
+}
+if (n == 0)
+{
+printf("%d%s\n", "Last digit of", n, " is 0");
+}
+if (n > 0 & n < 6)
+{
+printf("%d%s\n", "Last digit of" n, " is less than 6 and not 0");
+}
+return (0);
+}
