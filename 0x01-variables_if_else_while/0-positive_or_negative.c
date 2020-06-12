@@ -2,11 +2,6 @@
 #include <stdlib.h>
 #include <time.h>
 
-/**
- * main - assign a random number to the variable 'n'.
- *
- * Return: 0 indicates sucesfull execution.
- */
 
 int main(void)
 {
