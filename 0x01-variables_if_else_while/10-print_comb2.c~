@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+/**
+ * main - assign the alphabet.
+ *
+ * Return: 0 indicates sucesfull execution.
+ */
+
+int main(void)
+{
+
+int u = 48;
+int d = 48;
+
+while (d < 58)
+
+{
+
+if (u < 58)
+{
+putchar(d);
+putchar(u);
+u = u + 1;
+}
+
+if (u < 58)
+{
+d = d + 1;
+u = 48;
+}
+
+if (u != 58 && d != 58)
+{
+putchar(',');
+putchar(' ');
+}
+
+}
+
+putchar('\n');
+return (0);
+}
