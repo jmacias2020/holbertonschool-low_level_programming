@@ -11,7 +11,7 @@ int main(void)
 
 int a = 48;
 
-while (a <= 57)
+while (a <= 56)
 {
 
 putchar(a);
@@ -20,8 +20,12 @@ a = a + 1;
 
 putchar(',');
 putchar(' ');
-
 }
-putchar('\n');
+while (a == 57)
+{
+putchar(a);
+a = a + 1;
+}
+
 return (0);
 }
