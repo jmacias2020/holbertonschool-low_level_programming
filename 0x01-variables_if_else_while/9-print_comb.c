@@ -11,21 +11,20 @@ int main(void)
 
 int a = 48;
 
-while (a <= 56)
+while (a < 58)
 {
 
 putchar(a);
 
 a = a + 1;
 
+if (a != 58)
+{
 putchar(',');
 putchar(' ');
 }
-while (a == 57)
-{
-putchar(a);
-a = a + 1;
 }
+
 putchar('\n');
 return (0);
 }
